@@ -29,7 +29,7 @@ export default function AppExplanation() {
 
                     <DefaultButton
                         buttonText={"Continuar"}
-                        handlePress={handleSetShowHome}
+                        handlerPress={handleSetShowHome}
                         width={250}
                         height={50}
                     />

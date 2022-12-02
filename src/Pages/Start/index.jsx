@@ -6,9 +6,10 @@ import { useNavigation } from '@react-navigation/native';
 import LifeStatus from '../../Components/Common/LifeStatus';
 
 export default function Start() {
+    const navigation = useNavigation()
 
     const handleNavAppExplanation = () => {
-        console.log('Testando o clique')
+        navigation.navigate('AppExplanation')
     }
 
     return (
@@ -38,7 +39,7 @@ export default function Start() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundcolor: "rgba(21, 21, 21, 0.98)",
+        backgroundColor: "rgba(21, 21, 21, 0.98)",
     },
 
     logo: {
