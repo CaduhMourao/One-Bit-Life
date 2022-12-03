@@ -22,7 +22,7 @@ export default function Start() {
                     <LifeStatus />
 
                     <Text style={styles.description}>
-                        Vamos transformar sua vida {"\n"} em jogo . buscando sempre {"\n"} o melhor nível.
+                        Vamos transformar sua vida {"\n"} em jogo, buscando sempre {"\n"} o melhor nível.
                     </Text>
                     <DefaultButton
                         buttonText={"Continuar"}
